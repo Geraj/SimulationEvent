@@ -1,8 +1,3 @@
-/*
- * Copyright (C) TBA BV
- * All rights reserved.
- * www.tba.nl
- */
 package util;
 
 import java.io.ByteArrayInputStream;

@@ -1,8 +1,3 @@
-/*
- * Copyright (C) TBA BV
- * All rights reserved.
- * www.tba.nl
- */
 package event;
 
 import java.io.Serializable;
@@ -22,7 +17,7 @@ public class Event implements Serializable, EventInterface, Comparable<Event> {
   /** AFTER */
   static final int AFTER = 1;
   
-  /** timeStamp */
+  /** timeStamp  */
   private long timeStamp;
   /** type */
   private EventType type;
