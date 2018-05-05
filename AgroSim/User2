@@ -1,0 +1,111 @@
+    2012-06-23 19:53:50,435 [main] INFO  main.MainFrame  - APPLICATION Started
+19480 2012-06-23 19:54:09,915 [AWT-EventQueue-0] INFO  control.Control2  - [F1.1] New base button pressed
+109479 2012-06-23 19:55:39,914 [AWT-EventQueue-0] INFO  control.Control2  - [F1.1] Confirm plant base insert button pressed
+109500 2012-06-23 19:55:39,935 [AWT-EventQueue-0] INFO  control.Control2  - [F1.1] base inserted with name Satu Mare @ longitude 22.9587 latitudde 47.8206
+146224 2012-06-23 19:56:16,659 [AWT-EventQueue-0] INFO  control.Control2  - [F1.1] New base button pressed
+166617 2012-06-23 19:56:37,052 [AWT-EventQueue-0] INFO  control.Control2  - Action perforemed on operations menu item
+169591 2012-06-23 19:56:40,026 [AWT-EventQueue-0] INFO  control.Control2  - [F1.2] New operation button pressed
+213311 2012-06-23 19:57:23,746 [AWT-EventQueue-0] INFO  control.Control2  - [F1.2] Confirm operation insert button pressed
+213328 2012-06-23 19:57:23,763 [AWT-EventQueue-0] INFO  control.Control2  - [F1.2] Operation inserted with name Manuring  price/ha 1000 time/ha 2.0
+222176 2012-06-23 19:57:32,611 [AWT-EventQueue-0] INFO  control.Control2  - Action perforemed on plants menu item
+227351 2012-06-23 19:57:37,786 [AWT-EventQueue-0] INFO  control.Control2  - [F1.4] New plant button pressed
+303030 2012-06-23 19:58:53,465 [AWT-EventQueue-0] INFO  control.Control2  - [F1.4] Confirm plant insert button pressed
+303049 2012-06-23 19:58:53,484 [AWT-EventQueue-0] INFO  control.Control2  - [F1.4] Plant inserted with type Sunflower  seed price 500 income/ha 3000
+312614 2012-06-23 19:59:03,049 [AWT-EventQueue-0] INFO  control.Control2  - [F1.4] New plant button pressed
+333110 2012-06-23 19:59:23,545 [AWT-EventQueue-0] INFO  control.Control2  - [F1.4] Confirm plant insert button pressed
+333127 2012-06-23 19:59:23,562 [AWT-EventQueue-0] INFO  control.Control2  - [F1.4] Plant inserted with type Colza  seed price 500 income/ha 3000
+362343 2012-06-23 19:59:52,778 [AWT-EventQueue-0] INFO  control.Control2  - [F1.6]'Add' selected from plant operation combobox
+362349 2012-06-23 19:59:52,784 [AWT-EventQueue-0] INFO  control.Control2  - Select selected from plant operation combobox
+369838 2012-06-23 20:00:00,273 [AWT-EventQueue-0] INFO  control.Control2  - Manuring selected from plant operation combobox
+377969 2012-06-23 20:00:08,404 [AWT-EventQueue-0] INFO  control.Control2  - [F1.6] Manuring operation assigned to plant Colza
+377969 2012-06-23 20:00:08,404 [AWT-EventQueue-0] INFO  control.Control2  - [F1.6]OK button pushed with operation Add for action Manuring selected plant:Colza
+383502 2012-06-23 20:00:13,937 [AWT-EventQueue-0] INFO  control.Control2  - [F1.6]'Add' selected from plant operation combobox
+383507 2012-06-23 20:00:13,942 [AWT-EventQueue-0] INFO  control.Control2  - Select selected from plant operation combobox
+386414 2012-06-23 20:00:16,849 [AWT-EventQueue-0] INFO  control.Control2  - Harvest selected from plant operation combobox
+387990 2012-06-23 20:00:18,425 [AWT-EventQueue-0] INFO  control.Control2  - [F1.6] Harvest operation assigned to plant Colza
+387990 2012-06-23 20:00:18,425 [AWT-EventQueue-0] INFO  control.Control2  - [F1.6]OK button pushed with operation Add for action Harvest selected plant:Colza
+402270 2012-06-23 20:00:32,705 [AWT-EventQueue-0] INFO  control.Control2  - [F1.6]'Add' selected from plant operation combobox
+402277 2012-06-23 20:00:32,712 [AWT-EventQueue-0] INFO  control.Control2  - Select selected from plant operation combobox
+406854 2012-06-23 20:00:37,289 [AWT-EventQueue-0] INFO  control.Control2  - Manuring selected from plant operation combobox
+408782 2012-06-23 20:00:39,217 [AWT-EventQueue-0] INFO  control.Control2  - [F1.6] Manuring operation assigned to plant Sunflower
+408782 2012-06-23 20:00:39,217 [AWT-EventQueue-0] INFO  control.Control2  - [F1.6]OK button pushed with operation Add for action Manuring selected plant:Sunflower
+411310 2012-06-23 20:00:41,745 [AWT-EventQueue-0] INFO  control.Control2  - [F1.6]'Add' selected from plant operation combobox
+411316 2012-06-23 20:00:41,751 [AWT-EventQueue-0] INFO  control.Control2  - Select selected from plant operation combobox
+414902 2012-06-23 20:00:45,337 [AWT-EventQueue-0] INFO  control.Control2  - Plowing selected from plant operation combobox
+416380 2012-06-23 20:00:46,815 [AWT-EventQueue-0] INFO  control.Control2  - [F1.6] Plowing operation assigned to plant Sunflower
+416380 2012-06-23 20:00:46,815 [AWT-EventQueue-0] INFO  control.Control2  - [F1.6]OK button pushed with operation Add for action Plowing selected plant:Sunflower
+418845 2012-06-23 20:00:49,280 [AWT-EventQueue-0] INFO  control.Control2  - [F1.6]'Add' selected from plant operation combobox
+418852 2012-06-23 20:00:49,287 [AWT-EventQueue-0] INFO  control.Control2  - Select selected from plant operation combobox
+421446 2012-06-23 20:00:51,881 [AWT-EventQueue-0] INFO  control.Control2  - Harvest selected from plant operation combobox
+422861 2012-06-23 20:00:53,296 [AWT-EventQueue-0] INFO  control.Control2  - [F1.6] Harvest operation assigned to plant Sunflower
+422861 2012-06-23 20:00:53,296 [AWT-EventQueue-0] INFO  control.Control2  - [F1.6]OK button pushed with operation Add for action Harvest selected plant:Sunflower
+469813 2012-06-23 20:01:40,248 [AWT-EventQueue-0] INFO  control.Control2  - [F1.6]'Add' selected from plant operation combobox
+469820 2012-06-23 20:01:40,255 [AWT-EventQueue-0] INFO  control.Control2  - Select selected from plant operation combobox
+472213 2012-06-23 20:01:42,648 [AWT-EventQueue-0] INFO  control.Control2  - Manuring selected from plant operation combobox
+473851 2012-06-23 20:01:44,286 [AWT-EventQueue-0] INFO  control.Control2  - [F1.6] Manuring operation assigned to plant uncultivated
+473851 2012-06-23 20:01:44,286 [AWT-EventQueue-0] INFO  control.Control2  - [F1.6]OK button pushed with operation Add for action Manuring selected plant:uncultivated
+477685 2012-06-23 20:01:48,120 [AWT-EventQueue-0] INFO  control.Control2  - [F1.6]'Add' selected from plant operation combobox
+477691 2012-06-23 20:01:48,126 [AWT-EventQueue-0] INFO  control.Control2  - Select selected from plant operation combobox
+480382 2012-06-23 20:01:50,817 [AWT-EventQueue-0] INFO  control.Control2  - Manuring selected from plant operation combobox
+481521 2012-06-23 20:01:51,956 [AWT-EventQueue-0] INFO  control.Control2  - [F1.6] Manuring operation assigned to plant PioneerGrain
+481521 2012-06-23 20:01:51,956 [AWT-EventQueue-0] INFO  control.Control2  - [F1.6]OK button pushed with operation Add for action Manuring selected plant:PioneerGrain
+497478 2012-06-23 20:02:07,913 [AWT-EventQueue-0] INFO  control.Control2  - Action perforemed on machines menu item
+516477 2012-06-23 20:02:26,912 [AWT-EventQueue-0] INFO  control.Control2  - [F1.3] New machine button pressed
+582844 2012-06-23 20:03:33,279 [AWT-EventQueue-0] INFO  control.Control2  - [F1.3] Confirm machine insert button pressed
+582860 2012-06-23 20:03:33,295 [AWT-EventQueue-0] INFO  control.Control2  - [F1.3] Machine inserted with name 650 type tractor speed km/h 25 work speed ha/h 1.0
+587949 2012-06-23 20:03:38,384 [AWT-EventQueue-0] INFO  control.Control2  - [F1.3] New machine button pressed
+614580 2012-06-23 20:04:05,015 [AWT-EventQueue-0] INFO  control.Control2  - [F1.3] Confirm machine insert button pressed
+614593 2012-06-23 20:04:05,028 [AWT-EventQueue-0] INFO  control.Control2  - [F1.3] Machine inserted with name 420 type tractor speed km/h 20 work speed ha/h 1.0
+619037 2012-06-23 20:04:09,472 [AWT-EventQueue-0] INFO  control.Control2  - [F1.3] New machine button pressed
+637068 2012-06-23 20:04:27,503 [AWT-EventQueue-0] INFO  control.Control2  - [F1.3] Confirm machine insert button pressed
+637079 2012-06-23 20:04:27,514 [AWT-EventQueue-0] INFO  control.Control2  - [F1.3] Machine inserted with name 850 type tractor speed km/h 20 work speed ha/h 2.0
+639284 2012-06-23 20:04:29,719 [AWT-EventQueue-0] INFO  control.Control2  - [F1.3] New machine button pressed
+666108 2012-06-23 20:04:56,543 [AWT-EventQueue-0] INFO  control.Control2  - [F1.3] Confirm machine insert button pressed
+666121 2012-06-23 20:04:56,556 [AWT-EventQueue-0] INFO  control.Control2  - [F1.3] Machine inserted with name 1200 type tractor speed km/h 15 work speed ha/h 3.0
+676532 2012-06-23 20:05:06,967 [AWT-EventQueue-0] INFO  control.Control2  - [F1.3] New machine button pressed
+725204 2012-06-23 20:05:55,639 [AWT-EventQueue-0] INFO  control.Control2  - [F1.3] Confirm machine insert button pressed
+725218 2012-06-23 20:05:55,653 [AWT-EventQueue-0] INFO  control.Control2  - [F1.3] Machine inserted with name C12 type Harvester speed km/h 15 work speed ha/h 2.0
+731851 2012-06-23 20:06:02,286 [AWT-EventQueue-0] INFO  control.Control2  - [F1.3] New machine button pressed
+746059 2012-06-23 20:06:16,494 [AWT-EventQueue-0] INFO  control.Control2  - [F1.3] Confirm machine insert button pressed
+746070 2012-06-23 20:06:16,505 [AWT-EventQueue-0] INFO  control.Control2  - [F1.3] Machine inserted with name C14 type Harvester speed km/h 20 work speed ha/h 2.0
+747547 2012-06-23 20:06:17,982 [AWT-EventQueue-0] INFO  control.Control2  - [F1.3] New machine button pressed
+762107 2012-06-23 20:06:32,542 [AWT-EventQueue-0] INFO  control.Control2  - [F1.3] Confirm machine insert button pressed
+762120 2012-06-23 20:06:32,555 [AWT-EventQueue-0] INFO  control.Control2  - [F1.3] Machine inserted with name C105 type Harvester speed km/h 20 work speed ha/h 2.0
+765563 2012-06-23 20:06:35,998 [AWT-EventQueue-0] INFO  control.Control2  - [F1.3] New machine button pressed
+786891 2012-06-23 20:06:57,326 [AWT-EventQueue-0] INFO  control.Control2  - [F1.3] Confirm machine insert button pressed
+786902 2012-06-23 20:06:57,337 [AWT-EventQueue-0] INFO  control.Control2  - [F1.3] Machine inserted with name D28 type Harvester speed km/h 30 work speed ha/h 4.0
+819481 2012-06-23 20:07:29,916 [AWT-EventQueue-0] INFO  control.Control2  - [F1.5]Action on machine Operation combobox Add selected 
+824010 2012-06-23 20:07:34,445 [AWT-EventQueue-0] INFO  control.Control2  - Manuring selected from machine operation combobox
+825157 2012-06-23 20:07:35,592 [AWT-EventQueue-0] INFO  control.Control2  - [F1.5] Manuring operation can be performed by machine type tractor
+825158 2012-06-23 20:07:35,593 [AWT-EventQueue-0] INFO  control.Control2  - [F1.5]OK button pushed with operation Manuring for action Add selected machine:tractor
+829831 2012-06-23 20:07:40,266 [AWT-EventQueue-0] INFO  control.Control2  - [F1.5]Action on machine Operation combobox Add selected 
+832226 2012-06-23 20:07:42,661 [AWT-EventQueue-0] INFO  control.Control2  - Manuring selected from machine operation combobox
+833358 2012-06-23 20:07:43,793 [AWT-EventQueue-0] ERROR dao.jdbc.OperationsJdbcDAO  - Duplicate entry '16-tractor' for key 'PRIMARY'
+833359 2012-06-23 20:07:43,794 [AWT-EventQueue-0] INFO  control.Control2  - [F1.5] Unsuccessful assigning of operation to machine due to dao.jdbc.DbException: Data acces error!
+837461 2012-06-23 20:07:47,896 [AWT-EventQueue-0] INFO  control.Control2  - [F1.5]OK button pushed with operation Manuring for action Add selected machine:tractor
+855312 2012-06-23 20:08:05,747 [AWT-EventQueue-0] INFO  control.Control2  - [F1.5]Action on machine Operation combobox Add selected 
+862946 2012-06-23 20:08:13,381 [AWT-EventQueue-0] INFO  control.Control2  - Manuring selected from machine operation combobox
+864134 2012-06-23 20:08:14,569 [AWT-EventQueue-0] INFO  control.Control2  - [F1.5] Manuring operation can be performed by machine type Harvester
+864134 2012-06-23 20:08:14,569 [AWT-EventQueue-0] INFO  control.Control2  - [F1.5]OK button pushed with operation Manuring for action Add selected machine:Harvester
+868456 2012-06-23 20:08:18,891 [AWT-EventQueue-0] INFO  control.Control2  - [F1.5]Action on machine Operation combobox Add selected 
+877638 2012-06-23 20:08:28,073 [AWT-EventQueue-0] INFO  control.Control2  - [F1.5]Action on machine Operation combobox Add selected 
+879953 2012-06-23 20:08:30,388 [AWT-EventQueue-0] INFO  control.Control2  - Manuring selected from machine operation combobox
+880739 2012-06-23 20:08:31,174 [AWT-EventQueue-0] ERROR dao.jdbc.OperationsJdbcDAO  - Duplicate entry '16-Harvester' for key 'PRIMARY'
+880739 2012-06-23 20:08:31,174 [AWT-EventQueue-0] INFO  control.Control2  - [F1.5] Unsuccessful assigning of operation to machine due to dao.jdbc.DbException: Data acces error!
+882812 2012-06-23 20:08:33,247 [AWT-EventQueue-0] INFO  control.Control2  - [F1.5]OK button pushed with operation Manuring for action Add selected machine:Harvester
+913529 2012-06-23 20:09:03,964 [AWT-EventQueue-0] INFO  control.Control2  - Action perforemed on simulation menu item
+927977 2012-06-23 20:09:18,412 [AWT-EventQueue-0] INFO  control.Control2  - Action perforemed on bases menu item
+932281 2012-06-23 20:09:22,716 [AWT-EventQueue-0] INFO  control.Control2  - [F1.1] Confirm plant base insert button pressed
+932288 2012-06-23 20:09:22,723 [AWT-EventQueue-0] ERROR dao.jdbc.BaseJdbcDAO  - Duplicate entry 'Satu Mare' for key 'Name'
+932288 2012-06-23 20:09:22,723 [AWT-EventQueue-0] INFO  control.Control2  - [F1.1] Unsuccessful base insert due to DB exception dao.jdbc.DbException: Data access error!
+954394 2012-06-23 20:09:44,829 [AWT-EventQueue-0] INFO  control.Control2  - Action perforemed on simulation menu item
+964027 2012-06-23 20:09:54,462 [AWT-EventQueue-0] INFO  control.Control2  - Items selected from operations populate list with compatible equipments [Harvest ]
+976994 2012-06-23 20:10:07,429 [AWT-EventQueue-0] INFO  control.Control2  - Items selected from operations populate list with compatible equipments [Harvest Plowing ]
+982325 2012-06-23 20:10:12,760 [AWT-EventQueue-0] INFO  control.Control2  - Items selected from operations populate list with compatible equipments [Harvest Plowing Manuring ]
+1005601 2012-06-23 20:10:36,036 [AWT-EventQueue-0] INFO  control.Control2  - [F1.7] Simulation start button pressed
+1005601 2012-06-23 20:10:36,036 [AWT-EventQueue-0] INFO  control.Control2  - [F1.7] Simulation started wih operations[Harvest, Plowing, Manuring] using machines [B101] on parcells []
+1009296 2012-06-23 20:10:39,731 [Thread-3] INFO  calculations.simulation.Simulate  - [F1.7] Simulation wont produce any data as no suitable vehicles were selected 
+1014021 2012-06-23 20:10:44,456 [Thread-3] INFO  calculations.simulation.Simulate  - [F1.7] Simulation completed 
+1045409 2012-06-23 20:11:15,844 [AWT-EventQueue-0] INFO  control.Control2  - Action perforemed on start menu item
+1046209 2012-06-23 20:11:16,644 [AWT-EventQueue-0] INFO  control.Control2  - [F1.8] Virtual globe started
+1301639 2012-06-23 20:15:32,074 [AWT-EventQueue-0] INFO  appmap.ParcelToolPanel  - [F1.9] parcel created with name 15a area 9.226178280519893

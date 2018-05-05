@@ -1,0 +1,13 @@
+Select 8 3 2
+Con -1 8
+Select 10 117 1
+Con 8 10
+Select 11 216 1
+Con 10 11
+Select 12 264 1
+Con 11 12
+Select 9 386 6
+Con 12 11 10 8 9
+Select -1 534 6
+Con 9 8 -1
+534
