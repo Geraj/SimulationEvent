@@ -22750,3 +22750,8 @@ The last packet successfully received from the server was 1,525,534,838,629 mill
 80942 2018-05-05 18:42:30,493 [pool-1-thread-22] INFO  calculations.simulation.event.RabbitEventProcessor  - Event ignored
 80942 2018-05-05 18:42:30,493 [pool-1-thread-22] INFO  calculations.simulation.event.RabbitEventProcessor  - Event ignored
 89834 2018-05-05 18:42:39,385 [Thread-3] INFO  calculations.simulation.Simulate  - [F1.7] Simulation completed 
+0    2018-05-05 20:30:39,316 [main] INFO  main.MainFrame  - APPLICATION Started
+2855 2018-05-05 20:30:42,171 [AWT-EventQueue-0] INFO  control.Control2  - Action perforemed on start menu item
+0    2018-05-05 20:33:07,773 [main] INFO  main.MainFrame  - APPLICATION Started
+2900 2018-05-05 20:33:10,673 [AWT-EventQueue-0] INFO  control.Control2  - Action perforemed on start menu item
+4733 2018-05-05 20:33:12,506 [AWT-EventQueue-0] INFO  control.Control2  - [F1.8] Virtual globe started
