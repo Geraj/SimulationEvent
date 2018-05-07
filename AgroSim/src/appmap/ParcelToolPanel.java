@@ -15,8 +15,7 @@ import org.apache.log4j.Logger;
 import control.Control2;
 
 import calculations.PreviousParcels;
-import calculations.animation.Animation;
-
+import calculations.animation.log.Animation;
 //import appmap.ParcelToolUsage.AppFrame;
 import core.Parcel;
 import core.Path;

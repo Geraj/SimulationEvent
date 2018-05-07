@@ -9,7 +9,7 @@ package calculations.simulation;
 public class Timer {
   public int[] timeOnMachineThreads;
 
-  public int machinecount;
+  private int machinecount;
 
   /**
    * Constructs a new instance.

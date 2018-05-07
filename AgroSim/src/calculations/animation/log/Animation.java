@@ -1,4 +1,4 @@
-package calculations.animation;
+package calculations.animation.log;
 
 import java.awt.Font;
 import java.io.BufferedReader;

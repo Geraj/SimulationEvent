@@ -18,8 +18,7 @@ import gov.nasa.worldwind.util.measure.MeasureToolController;
 
 import javax.swing.*;
 import calculations.PreviousParcels;
-import calculations.animation.Animation;
-
+import calculations.animation.log.Animation;
 import control.GlobeListener;
 
 import core.Base;

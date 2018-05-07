@@ -13,7 +13,9 @@ import calculations.ModelAndGraphBuilder;
  * 
  * @author Gergely Meszaros
  *
+ * Not used
  */
+@Deprecated
 public class TimerTick implements Runnable, Observable {
   private LinkedList<Listener> listeners = new LinkedList<Listener>();
 

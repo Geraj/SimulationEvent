@@ -163,7 +163,7 @@ public class Simulate implements Runnable {
           e.printStackTrace();
         } catch (DbException e) {
           // TODO Auto-generated catch block
-          // e.printStackTrace();
+           e.printStackTrace();
         }
         // simulations++;
         for (int i = 0; i < n; i++) {
@@ -181,6 +181,12 @@ public class Simulate implements Runnable {
         }
         for (int i = 0; i < n; i++)
           while (machines[i].isAlive()) {
+        	  try {
+				Thread.sleep(1);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
             // waiting for threads to finish
           }
         eventProcessor.closeConnection();

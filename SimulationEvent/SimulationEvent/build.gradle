@@ -29,10 +29,25 @@ dependencies {
     compile 'com.rabbitmq:amqp-client:5.2.0'
 }
 
+apply plugin: 'maven-publish'
 task myJar(type: Jar)
+
+
 
 artifacts {
     archives myJar
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId 'geraj.sim'
+            artifactId 'simulation-event'
+            version '1.0'
+
+            from components.java
+        }
+    }
 }
 
 

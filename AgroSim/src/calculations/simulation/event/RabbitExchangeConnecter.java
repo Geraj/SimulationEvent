@@ -10,7 +10,7 @@ import com.rabbitmq.client.ConnectionFactory;
 import com.rabbitmq.client.Consumer;
 
 /**
- * TODO DESCRIPTION
+ * Connecting to rabbit messaging queue exchange
  * 
  * @author Geraj
  */
