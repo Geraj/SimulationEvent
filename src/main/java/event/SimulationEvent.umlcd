@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_yX544FqmEei2VtChGXNKiA">
+  <modelElement href="SimulationEvent.uml#_yUy6gFqmEei2VtChGXNKiA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_2etWMFqmEei2VtChGXNKiA" targetItem="_2e6KgFqmEei2VtChGXNKiA" sourceItem="_2esIEFqmEei2VtChGXNKiA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_2g7jwFqmEei2VtChGXNKiA" targetItem="_2hBqYFqmEei2VtChGXNKiA" sourceItem="_2g68sFqmEei2VtChGXNKiA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_2g8x4FqmEei2VtChGXNKiA" sourceAnchor="194.0,0.0" targetAnchor="84.0,108.0" dashed="true" superClass="_2hBqYFqmEei2VtChGXNKiA" subClass="_2e6KgFqmEei2VtChGXNKiA">
+    <modelElement href="SimulationEvent.uml#_y92ekFqmEei2VtChGXNKiA"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_2hkc8VqmEei2VtChGXNKiA" targetItem="_2hngQFqmEei2VtChGXNKiA" sourceItem="_2hkc8FqmEei2VtChGXNKiA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_2hlrEFqmEei2VtChGXNKiA" targetItem="_2hngUFqmEei2VtChGXNKiA" sourceItem="_2hlEAFqmEei2VtChGXNKiA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_2hlrElqmEei2VtChGXNKiA" targetItem="_2hngX1qmEei2VtChGXNKiA" sourceItem="_2hlrEVqmEei2VtChGXNKiA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_2hmSIVqmEei2VtChGXNKiA" targetItem="_2hoHVFqmEei2VtChGXNKiA" sourceItem="_2hmSIFqmEei2VtChGXNKiA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_2h83cVqmEei2VtChGXNKiA" targetItem="_2h_TsFqmEei2VtChGXNKiA" sourceItem="_2h83cFqmEei2VtChGXNKiA"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_2esIEFqmEei2VtChGXNKiA" sourceConnectionVisual="_2etWMFqmEei2VtChGXNKiA" text="Event class&#xD;&#xA;&#xD;&#xA;@author Geraj" item="_2e6KgFqmEei2VtChGXNKiA">
+    <modelElement href="SimulationEvent.uml#_y-uBQFqmEei2VtChGXNKiA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_2g68sFqmEei2VtChGXNKiA" sourceConnectionVisual="_2g7jwFqmEei2VtChGXNKiA" text="TODO DESCRIPTION&#xD;&#xA;&#xD;&#xA;@author Geraj" item="_2hBqYFqmEei2VtChGXNKiA">
+    <modelElement href="SimulationEvent.uml#_y-uBQVqmEei2VtChGXNKiA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_2hkc8FqmEei2VtChGXNKiA" sourceConnectionVisual="_2hkc8VqmEei2VtChGXNKiA" text="TODO DESCRIPTION&#xD;&#xA;&#xD;&#xA;@author Geraj" item="_2hngQFqmEei2VtChGXNKiA">
+    <modelElement href="SimulationEvent.uml#_y-uoUFqmEei2VtChGXNKiA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_2hlEAFqmEei2VtChGXNKiA" sourceConnectionVisual="_2hlrEFqmEei2VtChGXNKiA" text="Constructs a new instance.&#xD;&#xA;   * &#xD;&#xA;   * @param weight&#xD;&#xA;   * @param prob" item="_2hngUFqmEei2VtChGXNKiA">
+    <modelElement href="SimulationEvent.uml#_y-vPYlqmEei2VtChGXNKiA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_2hlrEVqmEei2VtChGXNKiA" sourceConnectionVisual="_2hlrElqmEei2VtChGXNKiA" text="Get weight.&#xD;&#xA;   * &#xD;&#xA;   * @return weight" item="_2hngX1qmEei2VtChGXNKiA">
+    <modelElement href="SimulationEvent.uml#_y-vPY1qmEei2VtChGXNKiA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_2hmSIFqmEei2VtChGXNKiA" sourceConnectionVisual="_2hmSIVqmEei2VtChGXNKiA" text="Set prob.&#xD;&#xA;   * &#xD;&#xA;   * @param prob" item="_2hoHVFqmEei2VtChGXNKiA">
+    <modelElement href="SimulationEvent.uml#_y-vPZFqmEei2VtChGXNKiA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_2h83cFqmEei2VtChGXNKiA" sourceConnectionVisual="_2h83cVqmEei2VtChGXNKiA" text="Util for serializing and deserializing event objects.&#xD;&#xA;&#xD;&#xA;@author Geraj" item="_2h_TsFqmEei2VtChGXNKiA">
+    <modelElement href="SimulationEvent.uml#_y-vPZVqmEei2VtChGXNKiA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_2hBqYFqmEei2VtChGXNKiA" comments="_2g68sFqmEei2VtChGXNKiA" targetConnectionVisual="_2g7jwFqmEei2VtChGXNKiA" name="EventInterface" subclassedBy="_2g8x4FqmEei2VtChGXNKiA">
+    <modelElement href="SimulationEvent.uml#_y77zAFqmEei2VtChGXNKiA"/>
+    <visualProperties xmi:id="_2hBqYVqmEei2VtChGXNKiA" position="150.0,-55.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_2hBqYlqmEei2VtChGXNKiA" label="+"/>
+    <attributes xmi:id="_2hBqY1qmEei2VtChGXNKiA" name="timeStamp">
+      <modelElement href="SimulationEvent.uml#_y78aEFqmEei2VtChGXNKiA"/>
+      <visibility xmi:id="_2hBqZFqmEei2VtChGXNKiA" label="+"/>
+      <cardinality xmi:id="_2hBqZVqmEei2VtChGXNKiA" label="1" max="1" min="1"/>
+      <type xmi:id="_2hBqZlqmEei2VtChGXNKiA" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_2hBqZ1qmEei2VtChGXNKiA" name="type">
+      <modelElement href="SimulationEvent.uml#_y79oMFqmEei2VtChGXNKiA"/>
+      <visibility xmi:id="_2hBqaFqmEei2VtChGXNKiA" label="+"/>
+      <cardinality xmi:id="_2hBqaVqmEei2VtChGXNKiA" label="1" max="1" min="1"/>
+      <type xmi:id="_2hBqalqmEei2VtChGXNKiA" name="EventType">
+        <modelElement href="SimulationEvent.uml#_y7_dYFqmEei2VtChGXNKiA"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_2e6KgFqmEei2VtChGXNKiA" comments="_2esIEFqmEei2VtChGXNKiA" targetConnectionVisual="_2etWMFqmEei2VtChGXNKiA" name="Event" generalizations="_2g8x4FqmEei2VtChGXNKiA">
+    <modelElement href="SimulationEvent.uml#_y7qtQFqmEei2VtChGXNKiA"/>
+    <visualProperties xmi:id="_2e6KgVqmEei2VtChGXNKiA" position="40.0,108.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_2e6KglqmEei2VtChGXNKiA" label="+"/>
+    <attributes xmi:id="_2e6Kg1qmEei2VtChGXNKiA" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="SimulationEvent.uml#_y-SjcFqmEei2VtChGXNKiA"/>
+      <visibility xmi:id="_2e6KhFqmEei2VtChGXNKiA" label="-"/>
+      <cardinality xmi:id="_2e6KhVqmEei2VtChGXNKiA" label="1" max="1" min="1"/>
+      <type xmi:id="_2e6KhlqmEei2VtChGXNKiA" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_2e6Kh1qmEei2VtChGXNKiA" defaultValue="-1" name="BEFORE" staticAttribute="true">
+      <modelElement href="SimulationEvent.uml#_y-TKgFqmEei2VtChGXNKiA"/>
+      <visibility xmi:id="_2e6KiFqmEei2VtChGXNKiA" label="~"/>
+      <cardinality xmi:id="_2e6KiVqmEei2VtChGXNKiA" label="1" max="1" min="1"/>
+      <type xmi:id="_2e6KilqmEei2VtChGXNKiA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_2e6Ki1qmEei2VtChGXNKiA" defaultValue="0" name="EQUAL" staticAttribute="true">
+      <modelElement href="SimulationEvent.uml#_y-TxkFqmEei2VtChGXNKiA"/>
+      <visibility xmi:id="_2e6KjFqmEei2VtChGXNKiA" label="~"/>
+      <cardinality xmi:id="_2e6KjVqmEei2VtChGXNKiA" label="1" max="1" min="1"/>
+      <type xmi:id="_2e6KjlqmEei2VtChGXNKiA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_2e6Kj1qmEei2VtChGXNKiA" defaultValue="1" name="AFTER" staticAttribute="true">
+      <modelElement href="SimulationEvent.uml#_y-UYoFqmEei2VtChGXNKiA"/>
+      <visibility xmi:id="_2e6KkFqmEei2VtChGXNKiA" label="~"/>
+      <cardinality xmi:id="_2e6KkVqmEei2VtChGXNKiA" label="1" max="1" min="1"/>
+      <type xmi:id="_2e6KklqmEei2VtChGXNKiA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_2e6xkFqmEei2VtChGXNKiA" name="timeStamp">
+      <modelElement href="SimulationEvent.uml#_y-U_sFqmEei2VtChGXNKiA"/>
+      <visibility xmi:id="_2e6xkVqmEei2VtChGXNKiA" label="+"/>
+      <cardinality xmi:id="_2e6xklqmEei2VtChGXNKiA" label="1" max="1" min="1"/>
+      <type xmi:id="_2e6xk1qmEei2VtChGXNKiA" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_2e6xlFqmEei2VtChGXNKiA" name="type">
+      <modelElement href="SimulationEvent.uml#_y-U_sVqmEei2VtChGXNKiA"/>
+      <visibility xmi:id="_2e6xlVqmEei2VtChGXNKiA" label="+"/>
+      <cardinality xmi:id="_2e6xllqmEei2VtChGXNKiA" label="1" max="1" min="1"/>
+      <type xmi:id="_2e6xl1qmEei2VtChGXNKiA" name="EventType">
+        <modelElement href="SimulationEvent.uml#_y7_dYFqmEei2VtChGXNKiA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_2e6xmFqmEei2VtChGXNKiA" name="toString">
+      <modelElement href="SimulationEvent.uml#_y7yCAFqmEei2VtChGXNKiA"/>
+      <stereotypes xmi:id="_2e6xmVqmEei2VtChGXNKiA" name="LegacyStyledElement">
+        <modelElement href="SimulationEvent.uml#_y70eQFqmEei2VtChGXNKiA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_2e6xmlqmEei2VtChGXNKiA" name="Annotations">
+        <modelElement href="SimulationEvent.uml#_y71sYFqmEei2VtChGXNKiA"/>
+      </stereotypes>
+      <visibility xmi:id="_2e6xm1qmEei2VtChGXNKiA" label="+"/>
+      <cardinality xmi:id="_2e6xnFqmEei2VtChGXNKiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_2e6xnVqmEei2VtChGXNKiA">
+        <modelElement href="SimulationEvent.uml#_y7z3MFqmEei2VtChGXNKiA"/>
+        <type xmi:id="_2e6xnlqmEei2VtChGXNKiA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_2e6xn1qmEei2VtChGXNKiA" name="Event">
+      <modelElement href="SimulationEvent.uml#_y93ssFqmEei2VtChGXNKiA"/>
+      <keywords xmi:id="_2e6xoFqmEei2VtChGXNKiA" keyword="create"/>
+      <visibility xmi:id="_2e6xoVqmEei2VtChGXNKiA" label="+"/>
+      <cardinality xmi:id="_2e6xolqmEei2VtChGXNKiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_2e6xo1qmEei2VtChGXNKiA">
+        <modelElement href="SimulationEvent.uml#_y9460lqmEei2VtChGXNKiA"/>
+        <type xmi:id="_2e6xpFqmEei2VtChGXNKiA" name="Event">
+          <modelElement href="SimulationEvent.uml#_y7qtQFqmEei2VtChGXNKiA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_2e6xpVqmEei2VtChGXNKiA" name="timeStamp">
+        <modelElement href="SimulationEvent.uml#_y93ssVqmEei2VtChGXNKiA"/>
+        <cardinality xmi:id="_2e6xplqmEei2VtChGXNKiA" label="1" max="1" min="1"/>
+        <type xmi:id="_2e6xp1qmEei2VtChGXNKiA" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_2e6xqFqmEei2VtChGXNKiA" name="type">
+        <modelElement href="SimulationEvent.uml#_y94TwFqmEei2VtChGXNKiA"/>
+        <cardinality xmi:id="_2e6xqVqmEei2VtChGXNKiA" label="1" max="1" min="1"/>
+        <type xmi:id="_2e6xqlqmEei2VtChGXNKiA" name="EventType">
+          <modelElement href="SimulationEvent.uml#_y7_dYFqmEei2VtChGXNKiA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_2e6xq1qmEei2VtChGXNKiA" name="compareTo">
+      <modelElement href="SimulationEvent.uml#_y95h4FqmEei2VtChGXNKiA"/>
+      <visibility xmi:id="_2e6xrFqmEei2VtChGXNKiA" label="+"/>
+      <cardinality xmi:id="_2e6xrVqmEei2VtChGXNKiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_2e6xrlqmEei2VtChGXNKiA">
+        <modelElement href="SimulationEvent.uml#_y96I8FqmEei2VtChGXNKiA"/>
+        <type xmi:id="_2e6xr1qmEei2VtChGXNKiA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_2e6xsFqmEei2VtChGXNKiA" name="that">
+        <modelElement href="SimulationEvent.uml#_y95h4VqmEei2VtChGXNKiA"/>
+        <cardinality xmi:id="_2e6xsVqmEei2VtChGXNKiA" label="1" max="1" min="1"/>
+        <type xmi:id="_2e6xslqmEei2VtChGXNKiA" name="Event">
+          <modelElement href="SimulationEvent.uml#_y7qtQFqmEei2VtChGXNKiA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_2hngQFqmEei2VtChGXNKiA" comments="_2hkc8FqmEei2VtChGXNKiA" targetConnectionVisual="_2hkc8VqmEei2VtChGXNKiA" name="EventType">
+    <modelElement href="SimulationEvent.uml#_y7_dYFqmEei2VtChGXNKiA"/>
+    <visualProperties xmi:id="_2hngQVqmEei2VtChGXNKiA" position="459.0,-50.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_2hngQlqmEei2VtChGXNKiA" label="+"/>
+    <attributes xmi:id="_2hngQ1qmEei2VtChGXNKiA" name="weight">
+      <modelElement href="SimulationEvent.uml#_y-W04FqmEei2VtChGXNKiA"/>
+      <stereotypes xmi:id="_2hngRFqmEei2VtChGXNKiA" name="LegacyStyledElement">
+        <modelElement href="SimulationEvent.uml#_y-Xb8FqmEei2VtChGXNKiA"/>
+      </stereotypes>
+      <visibility xmi:id="_2hngRVqmEei2VtChGXNKiA" label="-"/>
+      <cardinality xmi:id="_2hngRlqmEei2VtChGXNKiA" label="1" max="1" min="1"/>
+      <type xmi:id="_2hngR1qmEei2VtChGXNKiA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_2hngSFqmEei2VtChGXNKiA" name="prob">
+      <modelElement href="SimulationEvent.uml#_y-ewsFqmEei2VtChGXNKiA"/>
+      <visibility xmi:id="_2hngSVqmEei2VtChGXNKiA" label="+"/>
+      <cardinality xmi:id="_2hngSlqmEei2VtChGXNKiA" label="1" max="1" min="1"/>
+      <type xmi:id="_2hngS1qmEei2VtChGXNKiA" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_2hngTFqmEei2VtChGXNKiA" name="typeDescription">
+      <modelElement href="SimulationEvent.uml#_y-f-0FqmEei2VtChGXNKiA"/>
+      <visibility xmi:id="_2hngTVqmEei2VtChGXNKiA" label="+"/>
+      <cardinality xmi:id="_2hngTlqmEei2VtChGXNKiA" label="1" max="1" min="1"/>
+      <type xmi:id="_2hngT1qmEei2VtChGXNKiA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_2hngUFqmEei2VtChGXNKiA" comments="_2hlEAFqmEei2VtChGXNKiA" targetConnectionVisual="_2hlrEFqmEei2VtChGXNKiA" name="EventType">
+      <modelElement href="SimulationEvent.uml#_y8Du0FqmEei2VtChGXNKiA"/>
+      <keywords xmi:id="_2hngUVqmEei2VtChGXNKiA" keyword="create"/>
+      <visibility xmi:id="_2hngUlqmEei2VtChGXNKiA" label="-"/>
+      <cardinality xmi:id="_2hngU1qmEei2VtChGXNKiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_2hngVFqmEei2VtChGXNKiA">
+        <modelElement href="SimulationEvent.uml#_y8EV4lqmEei2VtChGXNKiA"/>
+        <type xmi:id="_2hngVVqmEei2VtChGXNKiA" name="EventType">
+          <modelElement href="SimulationEvent.uml#_y7_dYFqmEei2VtChGXNKiA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_2hngVlqmEei2VtChGXNKiA" name="weight">
+        <modelElement href="SimulationEvent.uml#_y8Du0VqmEei2VtChGXNKiA"/>
+        <cardinality xmi:id="_2hngV1qmEei2VtChGXNKiA" label="1" max="1" min="1"/>
+        <type xmi:id="_2hngWFqmEei2VtChGXNKiA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_2hngWVqmEei2VtChGXNKiA" name="prob">
+        <modelElement href="SimulationEvent.uml#_y8Du0lqmEei2VtChGXNKiA"/>
+        <cardinality xmi:id="_2hngWlqmEei2VtChGXNKiA" label="1" max="1" min="1"/>
+        <type xmi:id="_2hngW1qmEei2VtChGXNKiA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_2hngXFqmEei2VtChGXNKiA" name="typeDescription">
+        <modelElement href="SimulationEvent.uml#_y8Du01qmEei2VtChGXNKiA"/>
+        <cardinality xmi:id="_2hngXVqmEei2VtChGXNKiA" label="1" max="1" min="1"/>
+        <type xmi:id="_2hngXlqmEei2VtChGXNKiA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_2hngX1qmEei2VtChGXNKiA" comments="_2hlrEVqmEei2VtChGXNKiA" targetConnectionVisual="_2hlrElqmEei2VtChGXNKiA" name="getWeight">
+      <modelElement href="SimulationEvent.uml#_y8E88FqmEei2VtChGXNKiA"/>
+      <visibility xmi:id="_2hoHUFqmEei2VtChGXNKiA" label="+"/>
+      <cardinality xmi:id="_2hoHUVqmEei2VtChGXNKiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_2hoHUlqmEei2VtChGXNKiA">
+        <modelElement href="SimulationEvent.uml#_y8FkAFqmEei2VtChGXNKiA"/>
+        <type xmi:id="_2hoHU1qmEei2VtChGXNKiA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_2hoHVFqmEei2VtChGXNKiA" comments="_2hmSIFqmEei2VtChGXNKiA" targetConnectionVisual="_2hmSIVqmEei2VtChGXNKiA" name="setProb">
+      <modelElement href="SimulationEvent.uml#_y8GLEFqmEei2VtChGXNKiA"/>
+      <visibility xmi:id="_2hoHVVqmEei2VtChGXNKiA" label="+"/>
+      <cardinality xmi:id="_2hoHVlqmEei2VtChGXNKiA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_2hoHV1qmEei2VtChGXNKiA" name="prob">
+        <modelElement href="SimulationEvent.uml#_y8GLEVqmEei2VtChGXNKiA"/>
+        <cardinality xmi:id="_2hoHWFqmEei2VtChGXNKiA" label="1" max="1" min="1"/>
+        <type xmi:id="_2hoHWVqmEei2VtChGXNKiA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <literals xmi:id="_2hoHWlqmEei2VtChGXNKiA" name="TIME_CHANGE">
+      <modelElement href="SimulationEvent.uml#_y8AEcFqmEei2VtChGXNKiA"/>
+    </literals>
+    <literals xmi:id="_2hoHW1qmEei2VtChGXNKiA" name="BREAKDOWN">
+      <modelElement href="SimulationEvent.uml#_y8ArgVqmEei2VtChGXNKiA"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_2h_TsFqmEei2VtChGXNKiA" comments="_2h83cFqmEei2VtChGXNKiA" targetConnectionVisual="_2h83cVqmEei2VtChGXNKiA" name="EventSerializationUtil">
+    <modelElement href="SimulationEvent.uml#_y8JOYFqmEei2VtChGXNKiA"/>
+    <visualProperties xmi:id="_2h_TsVqmEei2VtChGXNKiA" position="-457.0,125.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_2h_TslqmEei2VtChGXNKiA" label="+"/>
+    <operations xmi:id="_2h_Ts1qmEei2VtChGXNKiA" name="createEventFromByteArray" staticOperation="true">
+      <modelElement href="SimulationEvent.uml#_y8LqoFqmEei2VtChGXNKiA"/>
+      <visibility xmi:id="_2h_TtFqmEei2VtChGXNKiA" label="+"/>
+      <cardinality xmi:id="_2h_TtVqmEei2VtChGXNKiA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_2h_TtlqmEei2VtChGXNKiA">
+        <modelElement href="SimulationEvent.uml#_y-IycFqmEei2VtChGXNKiA"/>
+        <type xmi:id="_2h_Tt1qmEei2VtChGXNKiA" name="Event">
+          <modelElement href="SimulationEvent.uml#_y7qtQFqmEei2VtChGXNKiA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_2h_TuFqmEei2VtChGXNKiA" name="array">
+        <modelElement href="SimulationEvent.uml#_y8LqoVqmEei2VtChGXNKiA"/>
+        <cardinality xmi:id="_2h_TuVqmEei2VtChGXNKiA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_2h_TulqmEei2VtChGXNKiA" name="byte">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_2h_Tu1qmEei2VtChGXNKiA" name="toByteArray" staticOperation="true">
+      <modelElement href="SimulationEvent.uml#_y-HkUVqmEei2VtChGXNKiA"/>
+      <stereotypes xmi:id="_2h_TvFqmEei2VtChGXNKiA" name="Array">
+        <modelElement href="SimulationEvent.uml#_y-ILYlqmEei2VtChGXNKiA"/>
+      </stereotypes>
+      <visibility xmi:id="_2h_TvVqmEei2VtChGXNKiA" label="+"/>
+      <cardinality xmi:id="_2h_TvlqmEei2VtChGXNKiA" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_2h_Tv1qmEei2VtChGXNKiA">
+        <modelElement href="SimulationEvent.uml#_y-ILYFqmEei2VtChGXNKiA"/>
+        <type xmi:id="_2h_TwFqmEei2VtChGXNKiA" name="byte">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_2h_TwVqmEei2VtChGXNKiA" name="event">
+        <modelElement href="SimulationEvent.uml#_y-HkUlqmEei2VtChGXNKiA"/>
+        <cardinality xmi:id="_2h_TwlqmEei2VtChGXNKiA" label="1" max="1" min="1"/>
+        <type xmi:id="_2h_Tw1qmEei2VtChGXNKiA" name="Event">
+          <modelElement href="SimulationEvent.uml#_y7qtQFqmEei2VtChGXNKiA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

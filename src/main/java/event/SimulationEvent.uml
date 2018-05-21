@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_yUy6gFqmEei2VtChGXNKiA" name="SimulationEvent">
+    <eAnnotations xmi:id="_yumhoFqmEei2VtChGXNKiA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_yuo94FqmEei2VtChGXNKiA" source="codegen">
+        <details xmi:id="_yupk8FqmEei2VtChGXNKiA" key="codegenDirectory" value="/SimulationEvent/src/main/java"/>
+        <details xmi:id="_2eViwFqmEei2VtChGXNKiA" key="AssociatedSourceCode" value="/SimulationEvent/src/main/java/event/Event.java;1943467484/1;/SimulationEvent/src/main/java/event/EventInterface.java;4086729079/1;/SimulationEvent/src/main/java/event/EventType.java;3525016828/1;/SimulationEvent/src/main/java/util/EventSerializationUtil.java;572958145/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_y60YsFqmEei2VtChGXNKiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_y60YsVqmEei2VtChGXNKiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_y60YslqmEei2VtChGXNKiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_y60Ys1qmEei2VtChGXNKiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_y60_wFqmEei2VtChGXNKiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_y60_wVqmEei2VtChGXNKiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_y60_wlqmEei2VtChGXNKiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_y60_w1qmEei2VtChGXNKiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_y61m0FqmEei2VtChGXNKiA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_y68UgFqmEei2VtChGXNKiA" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_y687kFqmEei2VtChGXNKiA" name="io">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_y9vw4FqmEei2VtChGXNKiA" name="Serializable"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_y99zUFqmEei2VtChGXNKiA" name="ByteArrayInputStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_y9_BcVqmEei2VtChGXNKiA" name="ByteArrayOutputStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_y-APkVqmEei2VtChGXNKiA" name="IOException"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_y-CEwFqmEei2VtChGXNKiA" name="ObjectInput"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_y-DS4VqmEei2VtChGXNKiA" name="ObjectInputStream"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_y-EhAVqmEei2VtChGXNKiA" name="ObjectOutput"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_y-GWMFqmEei2VtChGXNKiA" name="ObjectOutputStream"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_y-L1wFqmEei2VtChGXNKiA" name="lang">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_y-L1wVqmEei2VtChGXNKiA" name="Comparable"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_y7V9IFqmEei2VtChGXNKiA" name="event">
+      <packagedElement xmi:type="uml:Class" xmi:id="_y7qtQFqmEei2VtChGXNKiA" name="Event">
+        <ownedComment xmi:id="_y-uBQFqmEei2VtChGXNKiA">
+          <body>Event class&#xD;
+&#xD;
+@author Geraj</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_y-SjcFqmEei2VtChGXNKiA" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_y-SjcVqmEei2VtChGXNKiA" value="1L"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_y-TKgFqmEei2VtChGXNKiA" name="BEFORE" visibility="package" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_y-TKgVqmEei2VtChGXNKiA" value="-1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_y-TxkFqmEei2VtChGXNKiA" name="EQUAL" visibility="package" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_y-TxkVqmEei2VtChGXNKiA" value="0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_y-UYoFqmEei2VtChGXNKiA" name="AFTER" visibility="package" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_y-UYoVqmEei2VtChGXNKiA" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_y-U_sFqmEei2VtChGXNKiA" name="timeStamp" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_y-U_sVqmEei2VtChGXNKiA" name="type" type="_y7_dYFqmEei2VtChGXNKiA" isReadOnly="true"/>
+        <interfaceRealization xmi:id="_y-LOsFqmEei2VtChGXNKiA" client="_y7qtQFqmEei2VtChGXNKiA" supplier="_y9vw4FqmEei2VtChGXNKiA" contract="_y9vw4FqmEei2VtChGXNKiA"/>
+        <interfaceRealization xmi:id="_y92ekFqmEei2VtChGXNKiA" client="_y7qtQFqmEei2VtChGXNKiA" supplier="_y77zAFqmEei2VtChGXNKiA" contract="_y77zAFqmEei2VtChGXNKiA"/>
+        <interfaceRealization xmi:id="_y-Nq8VqmEei2VtChGXNKiA" client="_y7qtQFqmEei2VtChGXNKiA" supplier="_y-L1wVqmEei2VtChGXNKiA" contract="_y-L1wVqmEei2VtChGXNKiA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_y-n6oFqmEei2VtChGXNKiA" name="Event" specification="_y93ssFqmEei2VtChGXNKiA">
+          <ownedParameter xmi:id="_y-ohsFqmEei2VtChGXNKiA" name="timeStamp">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_y-ohsVqmEei2VtChGXNKiA" name="type" type="_y7_dYFqmEei2VtChGXNKiA"/>
+          <ownedParameter xmi:id="_y-ohslqmEei2VtChGXNKiA" type="_y7qtQFqmEei2VtChGXNKiA" direction="return"/>
+          <language>java</language>
+          <body>this.timeStamp = timeStamp;&#xD;
+ this.type = type;&#xD;
+  </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_y-rlAFqmEei2VtChGXNKiA" name="compareTo" specification="_y95h4FqmEei2VtChGXNKiA">
+          <ownedParameter xmi:id="_y-rlAVqmEei2VtChGXNKiA" name="that" type="_y7qtQFqmEei2VtChGXNKiA"/>
+          <ownedParameter xmi:id="_y-rlAlqmEei2VtChGXNKiA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (that != null) {&#xD;
+   if (this.getTimeStamp() > that.getTimeStamp()) {&#xD;
+     return AFTER;&#xD;
+   }&#xD;
+   if (this.getTimeStamp() &lt; that.getTimeStamp()) {&#xD;
+     return BEFORE;&#xD;
+   }&#xD;
+   if (this.getType().getWeight() == that.getType().getWeight()) {&#xD;
+     return EQUAL;&#xD;
+   } else if (this.getType().getWeight() &lt; that.getType().getWeight()) {&#xD;
+     return AFTER;&#xD;
+   } else if (this.getType().getWeight() > that.getType().getWeight()) {&#xD;
+     return BEFORE;&#xD;
+   }&#xD;
+&#xD;
+ } else {&#xD;
+   throw new NullPointerException(&quot;Null compare to&quot;);&#xD;
+ }&#xD;
+ return 0;&#xD;
+  </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_y-sMEFqmEei2VtChGXNKiA" name="toString" specification="_y7yCAFqmEei2VtChGXNKiA">
+          <ownedParameter xmi:id="_y-sMEVqmEei2VtChGXNKiA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>StringBuilder builder = new StringBuilder();&#xD;
+ builder.append(getTimeStamp());&#xD;
+ builder.append(&quot; &quot;);&#xD;
+ builder.append(getType().getTypeDescription());&#xD;
+ builder.append(&quot; &quot;);&#xD;
+ builder.append(getType().getProb());&#xD;
+ return builder.toString();&#xD;
+  </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_y7yCAFqmEei2VtChGXNKiA" name="toString" method="_y-sMEFqmEei2VtChGXNKiA">
+          <ownedParameter xmi:id="_y7z3MFqmEei2VtChGXNKiA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_y93ssFqmEei2VtChGXNKiA" name="Event" method="_y-n6oFqmEei2VtChGXNKiA">
+          <eAnnotations xmi:id="_y9460FqmEei2VtChGXNKiA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_y9460VqmEei2VtChGXNKiA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_y9460lqmEei2VtChGXNKiA" type="_y7qtQFqmEei2VtChGXNKiA" direction="return"/>
+          <ownedParameter xmi:id="_y93ssVqmEei2VtChGXNKiA" name="timeStamp">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_y94TwFqmEei2VtChGXNKiA" name="type" type="_y7_dYFqmEei2VtChGXNKiA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_y95h4FqmEei2VtChGXNKiA" name="compareTo" method="_y-rlAFqmEei2VtChGXNKiA">
+          <ownedParameter xmi:id="_y95h4VqmEei2VtChGXNKiA" name="that" type="_y7qtQFqmEei2VtChGXNKiA"/>
+          <ownedParameter xmi:id="_y96I8FqmEei2VtChGXNKiA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_y77zAFqmEei2VtChGXNKiA" name="EventInterface">
+        <ownedComment xmi:id="_y-uBQVqmEei2VtChGXNKiA">
+          <body>TODO DESCRIPTION&#xD;
+&#xD;
+@author Geraj</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_y78aEFqmEei2VtChGXNKiA" name="timeStamp" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_y79oMFqmEei2VtChGXNKiA" name="type" type="_y7_dYFqmEei2VtChGXNKiA" isReadOnly="true"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Enumeration" xmi:id="_y7_dYFqmEei2VtChGXNKiA" name="EventType">
+        <ownedComment xmi:id="_y-uoUFqmEei2VtChGXNKiA">
+          <body>TODO DESCRIPTION&#xD;
+&#xD;
+@author Geraj</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_y-W04FqmEei2VtChGXNKiA" name="weight" visibility="private" isLeaf="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_y-ewsFqmEei2VtChGXNKiA" name="prob" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_y-f-0FqmEei2VtChGXNKiA" name="typeDescription" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_y8Du0FqmEei2VtChGXNKiA" name="EventType" visibility="private" method="_y-sMElqmEei2VtChGXNKiA">
+          <eAnnotations xmi:id="_y8EV4FqmEei2VtChGXNKiA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_y8EV4VqmEei2VtChGXNKiA" key="create"/>
+          </eAnnotations>
+          <ownedComment xmi:id="_y-vPYlqmEei2VtChGXNKiA">
+            <body>Constructs a new instance.&#xD;
+   * &#xD;
+   * @param weight&#xD;
+   * @param prob</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_y8Du0VqmEei2VtChGXNKiA" name="weight">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_y8Du0lqmEei2VtChGXNKiA" name="prob">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_y8Du01qmEei2VtChGXNKiA" name="typeDescription">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_y8EV4lqmEei2VtChGXNKiA" type="_y7_dYFqmEei2VtChGXNKiA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_y8E88FqmEei2VtChGXNKiA" name="getWeight" method="_y-szIlqmEei2VtChGXNKiA">
+          <ownedComment xmi:id="_y-vPY1qmEei2VtChGXNKiA">
+            <body>Get weight.&#xD;
+   * &#xD;
+   * @return weight</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_y8FkAFqmEei2VtChGXNKiA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_y8GLEFqmEei2VtChGXNKiA" name="setProb" method="_y-szJFqmEei2VtChGXNKiA">
+          <ownedComment xmi:id="_y-vPZFqmEei2VtChGXNKiA">
+            <body>Set prob.&#xD;
+   * &#xD;
+   * @param prob</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_y8GLEVqmEei2VtChGXNKiA" name="prob">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedLiteral xmi:id="_y8AEcFqmEei2VtChGXNKiA" name="TIME_CHANGE">
+          <specification xmi:type="uml:Expression" xmi:id="_y8ArgFqmEei2VtChGXNKiA">
+            <operand xmi:type="uml:LiteralString" xmi:id="_y-uoUVqmEei2VtChGXNKiA" value="100"/>
+            <operand xmi:type="uml:LiteralString" xmi:id="_y-uoUlqmEei2VtChGXNKiA" value="1"/>
+            <operand xmi:type="uml:LiteralString" xmi:id="_y-uoU1qmEei2VtChGXNKiA" value="&quot;Time change event&quot;"/>
+          </specification>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="_y8ArgVqmEei2VtChGXNKiA" name="BREAKDOWN">
+          <specification xmi:type="uml:Expression" xmi:id="_y8ArglqmEei2VtChGXNKiA">
+            <operand xmi:type="uml:LiteralString" xmi:id="_y-uoVFqmEei2VtChGXNKiA" value="10"/>
+            <operand xmi:type="uml:LiteralString" xmi:id="_y-vPYFqmEei2VtChGXNKiA" value="0.01"/>
+            <operand xmi:type="uml:LiteralString" xmi:id="_y-vPYVqmEei2VtChGXNKiA" value="&quot;Break down event&quot;"/>
+          </specification>
+        </ownedLiteral>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_y7ixcFqmEei2VtChGXNKiA" name="util">
+      <packagedElement xmi:type="uml:Class" xmi:id="_y8JOYFqmEei2VtChGXNKiA" name="EventSerializationUtil">
+        <ownedComment xmi:id="_y-vPZVqmEei2VtChGXNKiA">
+          <body>Util for serializing and deserializing event objects.&#xD;
+&#xD;
+@author Geraj</body>
+        </ownedComment>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_y-taMFqmEei2VtChGXNKiA" name="toByteArray" specification="_y-HkUVqmEei2VtChGXNKiA">
+          <ownedParameter xmi:id="_y-taMVqmEei2VtChGXNKiA" name="event" type="_y7qtQFqmEei2VtChGXNKiA"/>
+          <ownedParameter xmi:id="_y-taMlqmEei2VtChGXNKiA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_y-taM1qmEei2VtChGXNKiA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>ByteArrayOutputStream bos = new ByteArrayOutputStream();&#xD;
+ ObjectOutput out = null;&#xD;
+ byte[] eventBytes = null;&#xD;
+ try {&#xD;
+   out = new ObjectOutputStream(bos);&#xD;
+   out.writeObject(event);&#xD;
+   out.flush();&#xD;
+   eventBytes = bos.toByteArray();&#xD;
+ } catch (IOException e) {&#xD;
+   // TODO Add your own exception handling here, consider logging&#xD;
+   e.printStackTrace();&#xD;
+ } finally {&#xD;
+   try {&#xD;
+     bos.close();&#xD;
+   } catch (IOException ex) {&#xD;
+     // ignore close exception&#xD;
+   }&#xD;
+ }&#xD;
+ return eventBytes;&#xD;
+  </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_y-taNFqmEei2VtChGXNKiA" name="createEventFromByteArray" specification="_y8LqoFqmEei2VtChGXNKiA">
+          <ownedParameter xmi:id="_y-taNVqmEei2VtChGXNKiA" name="array">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_y-taNlqmEei2VtChGXNKiA" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_y-taN1qmEei2VtChGXNKiA" type="_y7qtQFqmEei2VtChGXNKiA" direction="return"/>
+          <language>java</language>
+          <body>ByteArrayInputStream bis = new ByteArrayInputStream(array);&#xD;
+ ObjectInput in = null;&#xD;
+ Event event = null;&#xD;
+ try {&#xD;
+   in = new ObjectInputStream(bis);&#xD;
+   event = (Event) in.readObject();&#xD;
+ } catch (IOException | ClassNotFoundException e) {&#xD;
+   e.printStackTrace();&#xD;
+ } finally {&#xD;
+   try {&#xD;
+     bis.close();&#xD;
+   } catch (IOException ex) {&#xD;
+     // ignore close exception&#xD;
+   }&#xD;
+ }&#xD;
+ return event;&#xD;
+  </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_y8LqoFqmEei2VtChGXNKiA" name="createEventFromByteArray" isStatic="true" method="_y-taNFqmEei2VtChGXNKiA">
+          <ownedParameter xmi:id="_y8LqoVqmEei2VtChGXNKiA" name="array">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_y8M4wFqmEei2VtChGXNKiA" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_y-IycFqmEei2VtChGXNKiA" type="_y7qtQFqmEei2VtChGXNKiA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_y-HkUVqmEei2VtChGXNKiA" name="toByteArray" isStatic="true" method="_y-taMFqmEei2VtChGXNKiA">
+          <ownedParameter xmi:id="_y-HkUlqmEei2VtChGXNKiA" name="event" type="_y7qtQFqmEei2VtChGXNKiA"/>
+          <ownedParameter xmi:id="_y-ILYFqmEei2VtChGXNKiA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_y-ILYVqmEei2VtChGXNKiA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_yusBMFqmEei2VtChGXNKiA">
+      <eAnnotations xmi:id="_yu-VEFqmEei2VtChGXNKiA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_yvCmgFqmEei2VtChGXNKiA" base_Package="_yUy6gFqmEei2VtChGXNKiA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_y70eQFqmEei2VtChGXNKiA" base_Element="_y7yCAFqmEei2VtChGXNKiA"/>
+  <UMLLabProfile:Annotations xmi:id="_y71sYFqmEei2VtChGXNKiA" base_Element="_y7yCAFqmEei2VtChGXNKiA">
+    <annotations xmi:id="_y71sYVqmEei2VtChGXNKiA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_y9xmEFqmEei2VtChGXNKiA" base_Element="_y9vw4FqmEei2VtChGXNKiA"/>
+  <UMLLabProfile:Reference xmi:id="_y9_BcFqmEei2VtChGXNKiA" base_Element="_y99zUFqmEei2VtChGXNKiA"/>
+  <UMLLabProfile:Reference xmi:id="_y-APkFqmEei2VtChGXNKiA" base_Element="_y9_BcVqmEei2VtChGXNKiA"/>
+  <UMLLabProfile:Reference xmi:id="_y-BdsFqmEei2VtChGXNKiA" base_Element="_y-APkVqmEei2VtChGXNKiA"/>
+  <UMLLabProfile:Reference xmi:id="_y-DS4FqmEei2VtChGXNKiA" base_Element="_y-CEwFqmEei2VtChGXNKiA"/>
+  <UMLLabProfile:Reference xmi:id="_y-EhAFqmEei2VtChGXNKiA" base_Element="_y-DS4VqmEei2VtChGXNKiA"/>
+  <UMLLabProfile:Reference xmi:id="_y-FvIFqmEei2VtChGXNKiA" base_Element="_y-EhAVqmEei2VtChGXNKiA"/>
+  <UMLLabProfile:Reference xmi:id="_y-HkUFqmEei2VtChGXNKiA" base_Element="_y-GWMFqmEei2VtChGXNKiA"/>
+  <UMLLabProfile:Array xmi:id="_y-ILYlqmEei2VtChGXNKiA" base_Element="_y-HkUVqmEei2VtChGXNKiA"/>
+  <UMLLabProfile:Reference xmi:id="_y-Nq8FqmEei2VtChGXNKiA" base_Element="_y-L1wVqmEei2VtChGXNKiA"/>
+  <UMLLabProfile:Generics xmi:id="_y-O5EFqmEei2VtChGXNKiA" genericsValue="Event" base_Element="_y-Nq8VqmEei2VtChGXNKiA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_y-Xb8FqmEei2VtChGXNKiA" base_Element="_y-W04FqmEei2VtChGXNKiA"/>
+  <uml:OpaqueBehavior xmi:id="_y-sMElqmEei2VtChGXNKiA" name="EventType" specification="_y8Du0FqmEei2VtChGXNKiA">
+    <ownedParameter xmi:id="_y-sME1qmEei2VtChGXNKiA" name="weight">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedParameter>
+    <ownedParameter xmi:id="_y-sMFFqmEei2VtChGXNKiA" name="prob">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </ownedParameter>
+    <ownedParameter xmi:id="_y-szIFqmEei2VtChGXNKiA" name="typeDescription">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <ownedParameter xmi:id="_y-szIVqmEei2VtChGXNKiA" type="_y7_dYFqmEei2VtChGXNKiA" direction="return"/>
+    <language>java</language>
+    <body>this.weight = weight;&#xD;
+ this.prob = prob;&#xD;
+ this.typeDescription = typeDescription;&#xD;
+  </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_y-szIlqmEei2VtChGXNKiA" name="getWeight" specification="_y8E88FqmEei2VtChGXNKiA">
+    <ownedParameter xmi:id="_y-szI1qmEei2VtChGXNKiA" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return this.weight;&#xD;
+  </body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_y-szJFqmEei2VtChGXNKiA" name="setProb" specification="_y8GLEFqmEei2VtChGXNKiA">
+    <ownedParameter xmi:id="_y-szJVqmEei2VtChGXNKiA" name="prob">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.prob = prob;&#xD;
+  </body>
+  </uml:OpaqueBehavior>
+</xmi:XMI>
