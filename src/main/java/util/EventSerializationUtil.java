@@ -52,7 +52,6 @@ public class EventSerializationUtil {
    * 
    * @param array
    * @return
-   * @throws IOException
    */
   public static Event createEventFromByteArray(byte[] array) {
     ByteArrayInputStream bis = new ByteArrayInputStream(array);

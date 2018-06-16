@@ -8,12 +8,12 @@ package event;
 public interface EventInterface {
   
   /**
-   * TODO DESCRIPTION
+   * Return the time stamp
    * @return
    */
   long getTimeStamp();
   /**
-   * TODO DESCRIPTION
+   * Returm the event type
    * @return
    */
   EventType getType();
